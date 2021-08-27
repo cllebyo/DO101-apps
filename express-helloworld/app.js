@@ -9,8 +9,11 @@ app.get('/mars', function(req, res) {
   res.send('Hello Mars!\n');
 });
 
+app.get('/moon', function(req, res) {
+  res.send('Welcome to the Moon!!\n');
+});
+
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
 });
 
-/ by Clebio on 27/08/2021
